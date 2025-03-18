@@ -1,5 +1,6 @@
 # Building a SOC + Honeynet in Azure (Live Traffic)
-![Cloud Honeynet / SOC](https://imgur.com/r3mJELe.jpeg)
+![image](https://github.com/user-attachments/assets/b4ac94f9-6990-4eb3-bdec-a6cdffc05a26)
+
 
 ## Introduction
 
@@ -12,10 +13,12 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://imgur.com/shdpdNt.jpeg)
+![image](https://github.com/user-attachments/assets/97d62bcb-0bff-4ae0-8ef0-894824747575)
+
 
 ## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://imgur.com/8JzKX5U.jpeg)
+![image](https://github.com/user-attachments/assets/710f881c-72c6-4768-acca-0e20097c1b5b)
+
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
@@ -40,8 +43,8 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 ## Metrics Before Hardening / Security Controls
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
-Start Time 2023-03-15 17:04:29
-Stop Time 2023-03-16 17:04:29
+Start Time 2024-03-15 17:04:29
+Stop Time 2024-03-16 17:04:29
 
 | Metric                   | Count
 | ------------------------ | -----
@@ -58,8 +61,8 @@ Stop Time 2023-03-16 17:04:29
 ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
-Start Time 2023-03-18 15:37
-Stop Time	2023-03-19 15:37
+Start Time 2024-03-18 15:37
+Stop Time	2024-03-19 15:37
 
 | Metric                   | Count
 | ------------------------ | -----
